@@ -10,10 +10,10 @@ public:
 
 // specka czesciowa
 template <typename T>
-class Stack<T, 632>
+class Stack<T, 666>
 {
 public:
-    void info() { std::cout << "Stack<T,632>" << std::endl; }
+    void info() { std::cout << "Stack<T,666>" << std::endl; }
 };
 
 // specjalizacja czesciowa dla wskaznikow
@@ -42,10 +42,10 @@ public:
 
 // specka pelna dla double
 template <>
-class Stack<double, 632>
+class Stack<double, 666>
 {
 public:
-    void info() { std::cout << "Stack<double,632>" << std::endl; }
+    void info() { std::cout << "Stack<double,666>" << std::endl; }
 };
 
 // specka pelna dla double*
@@ -60,7 +60,7 @@ int main()
 {
     Stack<int, 100> s1;
     s1.info();
-    Stack<int, 632> s2;
+    Stack<int, 666> s2;
     s2.info();
     Stack<int *, 10> s3;
     s3.info();
@@ -68,7 +68,7 @@ int main()
     s4.info();
     Stack<int *, 10> s5;
     s5.info();
-    Stack<double, 632> s6;
+    Stack<double, 666> s6;
     s6.info();
     Stack<double *, 44> s7;
     s7.info();
