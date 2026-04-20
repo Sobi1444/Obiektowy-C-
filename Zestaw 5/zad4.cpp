@@ -42,7 +42,7 @@ struct Strip<T &>
 
 int main()
 {
-    // sprawdzamy czy Strip<const int>::base_t to int
+    // sprawdza czy Strip<const int>::base_t to int
     Strip<const int>::base_t x = 5;
     std::cout << typeid(x).name() << std::endl;
 
