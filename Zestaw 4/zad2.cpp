@@ -28,7 +28,7 @@ struct sum_traits<float>
 {
     typedef double typ_sumy;
     // static const double zero = 0.0 jest niedozwolone dla typow zmiennoprzecinkowych
-    // dlatego uzywamy funkcji statycznej
+    // stad f statyczna
     static typ_sumy zero() { return 0.0; }
 };
 
